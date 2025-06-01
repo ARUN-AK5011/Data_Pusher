@@ -31,4 +31,15 @@ sequenceDiagram
     Client->>API: 3. Send Data (POST /server/incoming_data)
     API->>Destinations: 4. Forwards to all registered URLs
     Destinations-->>API: Response from endpoints
-    API-->>Client: Forwarding status report
+    API-->>Client: Forwarding status report 
+```
+
+## 🔧 API Endpoints
+
+- **Account Management
+- **Method	Endpoint	Description
+- **POST	/accounts	Create new account
+- **GET	/accounts/:id	Get account details
+- **PUT	/accounts/:id	Update account
+- **DELETE	/accounts/:id	Delete account (+destinations)
+
