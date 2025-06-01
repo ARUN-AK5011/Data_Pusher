@@ -11,8 +11,6 @@ A robust Express.js application that receives JSON data and forwards it to confi
 - **Account Management** (CRUD operations)
 - **Destination Configuration** (Multiple endpoints per account)
 - **Secure Data Forwarding** (Token-based authentication)
-- **Multi-Protocol Support** (GET/POST/PUT)
-- **Error Resilient** (Continues if some destinations fail)
 
 ## 🚀 Workflow Overview
 
@@ -76,8 +74,4 @@ npm install
 npm start
 ```
 ## 📚 Postman Collection
-
-## 📚 Postman Collection
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/dark-star-200065/workspace/my-workspace/collection/32014271-13d9b1f3-a98f-419f-82fc-089393f7eadd)
-*One-click import to your Postman workspace*
-
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/planetary-station-565633/customer-labs-task1/collection/tu9jb0l/data-pusher?action=share&creator=32014221)
