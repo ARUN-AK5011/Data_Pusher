@@ -36,10 +36,47 @@ sequenceDiagram
 
 ## 🔧 API Endpoints
 
-- **Account Management
-- **Method	Endpoint	Description
-- **POST	/accounts	Create new account
-- **GET	/accounts/:id	Get account details
-- **PUT	/accounts/:id	Update account
-- **DELETE	/accounts/:id	Delete account (+destinations)
+### Account Management
+| Method | Endpoint               | Description                              |
+|--------|------------------------|------------------------------------------|
+| POST   | `/accounts`            | Create new account                       |
+| GET    | `/accounts/:id`        | Get account details                      |
+| PUT    | `/accounts/:id`        | Update account                           |
+| DELETE | `/accounts/:id`        | Delete account (and all its destinations) |
+
+### Destination Management
+| Method | Endpoint                               | Description                |
+|--------|----------------------------------------|----------------------------|
+| POST   | `/accounts/:id/destinations`           | Add new destination        |
+| GET    | `/accounts/:id/destinations`           | List all destinations      |
+| PUT    | `/accounts/:id/destinations/:destId`   | Update destination         |
+| DELETE | `/accounts/:id/destinations/:destId`   | Remove destination         |
+
+### Data Handling
+| Method | Endpoint               | Description                              |
+|--------|------------------------|------------------------------------------|
+| POST   | `/server/incoming_data`| Forward JSON data to all destinations    |
+
+
+## 🛠 Setup & Installation
+
+### Prerequisites
+- Node.js v18+
+- npm v9+
+- SQLite3 (comes bundled with Node.js)
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/data-pusher.git
+cd data-pusher
+```
+### 2. Run the Project
+```bash
+npm install
+npm start
+```
+## 📚 Postman Collection
+
+[![Run in Postman](https://run.pstmn.io/button.svg)]([https://www.postman.com/your-collection-link](https://.postman.co/workspace/My-Workspace~03b64324-f127-40ca-84cb-7512d690f481/collection/32014271-13d9b1f3-a98f-419f-82fc-089393f7eadd?action=share&creator=32014271))  
+*One-click import to your Postman workspace*
 
