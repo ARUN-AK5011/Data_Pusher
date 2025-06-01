@@ -77,6 +77,7 @@ npm start
 ```
 ## 📚 Postman Collection
 
-[![Run in Postman](https://run.pstmn.io/button.svg)]([https://www.postman.com/your-collection-link](https://.postman.co/workspace/My-Workspace~03b64324-f127-40ca-84cb-7512d690f481/collection/32014271-13d9b1f3-a98f-419f-82fc-089393f7eadd?action=share&creator=32014271))  
+## 📚 Postman Collection
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/dark-star-200065/workspace/my-workspace/collection/32014271-13d9b1f3-a98f-419f-82fc-089393f7eadd)
 *One-click import to your Postman workspace*
 
